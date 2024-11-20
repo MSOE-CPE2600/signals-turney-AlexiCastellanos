@@ -1,6 +1,6 @@
 /**
- * @file recv_signal.c
- * @brief Program that uses sigaction to handle SIGUSR1 and retrieve additional data sent with the signal.
+ * File: recv_signal.c
+ * Description: Program that uses sigaction to handle SIGUSR1 and retrieve additional data sent with the signal.
  * 
  * Modified by: Alexi Castellanos
  * 
@@ -8,6 +8,7 @@
  * - Registers a signal handler for SIGUSR1 using sigaction.
  * - The signal handler retrieves and prints the `sival_int` value sent with the signal.
  * - The program runs in an infinite loop, waiting for SIGUSR1 signals.
+ * Date: 11/20/24
  */
 
 #include <stdio.h>
@@ -16,7 +17,7 @@
 #include <unistd.h>
 
 /**
- * @brief Signal handler for SIGUSR1
+ * Signal handler for SIGUSR1
  * @param signo Signal number (SIGUSR1)
  * @param info Signal information structure containing additional data
  * @param context Context (unused)

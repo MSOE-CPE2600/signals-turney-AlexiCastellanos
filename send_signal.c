@@ -1,6 +1,6 @@
 /**
- * @file send_signal.c
- * @brief Program that sends SIGUSR1 to a specified process with a random integer value using sigqueue.
+ * File: send_signal.c
+ * Description: Program that sends SIGUSR1 to a specified process with a random integer value using sigqueue.
  * 
  * Modified by: Alexi Castellanos
  * 
@@ -8,6 +8,7 @@
  * - Accepts a PID as a command-line argument.
  * - Sends SIGUSR1 to the specified PID along with a random integer value.
  * - Prints the random value being sent.
+ * Date: 11/20/24
  */
 
 #include <stdio.h>

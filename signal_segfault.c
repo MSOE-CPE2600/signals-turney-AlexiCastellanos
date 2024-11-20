@@ -1,15 +1,14 @@
 /**
- * @file signal_segfault.c
- * @brief Program that dereferences a null pointer causing a segmentation fault,
- *        modified to handle SIGSEGV gracefully using a custom signal handler.
- */
-
-/**
+ * File: signal_segfault.c
+ * Description: Program that dereferences a null pointer causing a segmentation fault,
+ * modified to handle SIGSEGV gracefully using a custom signal handler.
+ *
  * Modified by: Alexi Castellanos
  * 
  * Brief summary of modifications:
  * - Added a signal handler to catch and handle SIGSEGV.
  * - The program now gracefully exits after a segmentation fault is encountered.
+ * Date: 11/20/24
  */
 
 #include <stdio.h>

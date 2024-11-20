@@ -1,6 +1,6 @@
 /**
- * @file signal_alarm.c
- * @brief Program that schedules an alarm and handles SIGALRM with a custom signal handler.
+ * File: signal_alarm.c
+ * Description Program that schedules an alarm and handles SIGALRM with a custom signal handler.
  * 
  * Modified by: Alexi Castellanos
  * 
@@ -16,7 +16,7 @@
 #include <unistd.h>
 
 /**
- * @brief Signal handler for SIGALRM
+ *  Signal handler for SIGALRM
  * @param signo Signal number (SIGALRM)
  */
 void handle_sigalrm(int signo) {

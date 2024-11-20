@@ -1,6 +1,6 @@
 /**
  * File: signal_sigaction.c
- * @brief Program that uses sigaction to handle SIGUSR1 and retrieve sender details.
+ * Description: Program that uses sigaction to handle SIGUSR1 and retrieve sender details.
  * 
  * Modified by: Alexi Castellanos
  * 
@@ -8,6 +8,7 @@
  * - Registers a signal handler for SIGUSR1 using sigaction.
  * - The handler prints the PID of the sender process and any additional data.
  * - The program runs in an infinite loop, waiting for SIGUSR1 signals.
+ * Date: 11/20/24
  */
 
 #include <stdio.h>
@@ -16,7 +17,7 @@
 #include <unistd.h>
 
 /**
- * @brief Signal handler for SIGUSR1
+ * Signal handler for SIGUSR1
  * @param signo Signal number (SIGUSR1)
  * @param info Signal information structure containing sender details and value
  * @param context Context (unused)
